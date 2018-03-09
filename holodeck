@@ -134,7 +134,8 @@ class Holodeck:
 
     #print "Room is: "+str(room)
 
-    print "Basics: [look/describe/go (back)] followed by a fragment of the room description."
+    print "Basics: [look|describe|go] followed by a fragment of the room description."
+    print "Or 'go back'. Or 'exit'."
 
     commands = ""
     command = ""
