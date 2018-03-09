@@ -166,7 +166,10 @@ class Holodeck:
                 print "\nNot found."
         elif command=="go" or command=="g":
             if target=="back":
-                room = parent_id
+                if parent_id>0:
+                    room = parent_id
+                else:
+                    print "You can't go back any further."
             elif target in roomsummary:
                 db.execute("SELECT * FROM construct WHERE parent_id=? AND snippet=?",(str(room),target))
                 results = db.fetchall()
