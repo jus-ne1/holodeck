@@ -38,10 +38,19 @@ class Holodeck:
     roomsummary = ""
 
     #INITIAL MESSAGE ON STARTUP
+    print ""
+    print "#  #  ##  #     ##  ###  ####  ###  #  #   ======="
+    print "#  # #  # #    #  # #  # #    #   # # #     | | |"
+    print "#### #  # #    #  # #  # ###  #     ##       | |"
+    print "#  # #  # #    #  # #  # #    #   # # #     | | |"
+    print "#  #  ##  ####  ##  ###  ####  ###  #  #   ======="
+    print ""
     print "Welcome to the holodeck!!!"
     print ""
-    print "This holodeck hosts a virtual world that can be added to by"
-    print "anyone in town! The commands are 'look','describe', and 'go'."
+    print "This holodeck hosts a virtual world that can be explored and"
+    print "added to by anyone in town!"
+    print ""
+    print "The commands are 'look', 'describe', and 'go'."
     print ""
     raw_input("--press enter--")
     print ""
