@@ -225,6 +225,7 @@ class Holodeck:
         else:
             #No command was recognized.
             if len(commands)>0:
-                print "\n[l/d/g (back)] followed by a fragment of the room description. Or 'exit'."
+                print "\nUse: [look|describe|go] followed by a fragment of the room description."
+                print "Or 'go back'. Or 'exit'."
             else:
                 print ""
