@@ -31,7 +31,6 @@ class Holodeck:
     #look pin
     #look back
 
-
     #SET DEFAULTS
     room = 1 #location
     pin = 1 #bookmarked location
